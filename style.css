@@ -1,0 +1,44 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(227, 94, 94);
+    color: white;
+}
+
+#title {
+    background-color: aqua;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+#lens {
+    border-radius: 10px;
+}
+
+#mobileNetTitle {
+    font-size: 20px;
+}
+
+body::-webkit-scrollbar {
+    width: 20px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: aqua;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.test_image_and_result {
+    margin: 20px;
+    background-color: white;
+    color:rgb(227, 94, 94);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
